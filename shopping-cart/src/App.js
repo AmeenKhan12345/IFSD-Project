@@ -9,24 +9,44 @@ import UserCartComponent from './components/UserCartComponent';
 function App() {
     const [courses, setCourses] = useState([
         { id: 1, 
-        name: 'Preeti', 
-        price: 499, 
+        name: 'Adidas T-Shirt', 
+        price: 1499, 
         image: 
-        'https://media.geeksforgeeks.org/wp-content/uploads/20230823165506/gfg1.png'
+        'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/01915e1dc62c489c8358acfb01561e08_9366/adidas_Sportswear_Future_Icons_Logo_Graphic_Tee_Black_H39747_01_laydown.jpg'
         },
         { id: 2, 
-        name: 'Archana', 
-        price: 699, 
+        name: 'Puma Shoes', 
+        price: 1699, 
         image: 
-'https://media.geeksforgeeks.org/wp-content/uploads/20230823165553/gfg2.jpg'
+'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/398846/02/fnd/IND/fmt/png/Speedcat-OG-Unisex-Sneakers'
         },
         { id: 3, 
-        name: 'Sujata', 
-        price: 799, 
+        name: 'Samsung-Galaxy-S23', 
+        price: 111799, 
         image: 
-'https://media.geeksforgeeks.org/wp-content/uploads/20230823165623/gfg3.jpg'
-        }
+'https://rukminim2.flixcart.com/image/720/864/xif0q/mobile/t/0/g/-original-imah4zp7fvqp8wev.jpeg?q=60&crop=false'
+        },
+        { id: 4, 
+            name: 'Skybag', 
+            price: 1499, 
+            image: 
+    'https://skybags.co.in/cdn/shop/files/SkybagsTRIBE03.png?v=1705671302'
+        },
+        { id: 5, 
+            name: 'LG Refrigerator', 
+            price: 22499, 
+            image: 
+    'https://www.lg.com/content/dam/channel/wcms/in/images/refrigerators/gl-t422vpzx_epzzebn_eail_in_c/GL-T422VPZX_EPZZEBN_EAIL_IN_C-450x450.jpg'
+            },
+            { id: 6, 
+                name: 'Rayban Sunglass', 
+                price: 299, 
+                image: 
+        'https://optorium.in/cdn/shop/files/Ray_Ban_2140_129433_Sunglass_images_01_92af535f-0141-4c7a-8dea-fab2c5609577.jpg?v=1717418193&width=2048'
+            },
+
     ]);
+
 
     const [cartCourses, setCartCourses] = useState([]);
     const [searchCourse, setSearchCourse] = useState('');
